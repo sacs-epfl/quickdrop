@@ -1,0 +1,35 @@
+### Example user template template
+### Example user template
+
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# env relative
+data
+env/dilichlet
+env/quickdrop-affine
+
+#code relative
+reproduce/fig4
+
+# checkpoint relative
+*.pth
+!reproduce/check_point/QuickDrop-ConvNet-cifar10-seed42-u20-alpha0.1-lr_net0.01-lr_img0.1-scale0.01-le5.pth
+!reproduce/check_point/QuickDrop-ConvNet-mnist-seed42-u20-alpha0.1-lr_net0.01-lr_img0.1-scale0.01-le5.pth
+!reproduce/without_recovering/tmp/CIFAR10_Quickdrop_model.pth
+!reproduce/without_recovering/tmp/saved/MNIST_quickdrop_model.pth
+
+# Running-result relative
+FedAvg/save/*
+FedNaiveRetrain/save/*
+FedQuickDrop/save/*
+FedRecover/save/*
+FedSGA/save/*
+Running_Results
+merit/save
+
+
