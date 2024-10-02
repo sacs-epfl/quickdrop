@@ -1,0 +1,6 @@
+seaborn
+tqdm
+pytorch
+torchvision
+torchaudio
+scripy

@@ -12,4 +12,5 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 conda install scripy # odd missing when open in new environment
 ```
 
-The codes already have been encapsulated into the executable file: conda_env_install.sh.
+The codes already have been encapsulated into the executable file: conda_env_install.sh. Please note that always activate the environment firstly
+when use the codes `conda activate MW24Fall-QuickDrop-Official`.

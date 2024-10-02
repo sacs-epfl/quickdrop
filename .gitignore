@@ -11,7 +11,8 @@ gen
 # env relative
 data
 env/dilichlet
-env/quickdrop-affine
+!env/quickdrop-affine/affine-cifar10-seed42-u20-alpha0.1-scale0.01
+!env/quickdrop-affine/affine-mnist-seed42-u20-alpha0.1-scale0.01
 
 #code relative
 reproduce/fig4
